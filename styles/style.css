@@ -108,11 +108,12 @@ nav ul li{
 .bottom-first-container-leftside{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    gap: 10px;
-    margin-left: 60px;
+    gap: 20px;
+    margin-left: 70px;
 }
 .bottom-first-container-rightside{
     margin-top: 287px;
+    margin-left: 70px;
 }
 .quick-text{
     color: #727272;
@@ -126,9 +127,12 @@ nav ul li{
 .quicklist-info{
     text-align: left;
     width: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
 } 
 
-@media screen and (max-width:776px) {
+@media screen and (max-width:576px) {
     /* Nav bar responsive */
     nav{
         display: grid;
@@ -156,15 +160,14 @@ nav ul li{
     .bottom-first-container-leftside{
         display: grid;
         grid-template-columns: repeat(1,1fr);
+        margin:20px;
      }
     .bottom-first-container-rightside{
         margin-top: 20px;
-        text-align: center;
     }
     .quicklist-info{
-        text-align:center;
+        text-align:left;
         width: 80%;
-        margin: 20px;
     } 
 } 
 
