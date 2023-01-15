@@ -110,7 +110,6 @@ nav ul li{
     grid-template-columns: repeat(2,1fr);
     gap: 10px;
     margin-left: 60px;
-    margin-right: 70px;
 }
 .bottom-first-container-rightside{
     margin-top: 287px;
@@ -127,7 +126,7 @@ nav ul li{
 .quicklist-info{
     text-align: left;
     width: 80%;
-}
+} 
 
 @media screen and (max-width:776px) {
     /* Nav bar responsive */
@@ -137,7 +136,7 @@ nav ul li{
     }
     nav ul{
         display: grid;
-        /* grid-template-columns: repeat(1,1fr); */
+     /* grid-template-columns: repeat(1,1fr);  */
         flex-direction: row;
     }
     nav ul li{
@@ -157,8 +156,7 @@ nav ul li{
     .bottom-first-container-leftside{
         display: grid;
         grid-template-columns: repeat(1,1fr);
-        margin-left: 40px;
-    }
+     }
     .bottom-first-container-rightside{
         margin-top: 20px;
         text-align: center;
@@ -166,8 +164,8 @@ nav ul li{
     .quicklist-info{
         text-align:center;
         width: 80%;
-        margin: 20px 30px;
-    }
+        margin: 20px;
+    } 
 } 
 
 
