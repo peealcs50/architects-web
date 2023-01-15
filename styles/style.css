@@ -338,9 +338,8 @@ footer{
         border: 1px solid #FF900E;
         border-radius: 8px;
         margin-right: 80px;
-        padding: 45px 59px 35px 35px;
-        transition: width 10s;
-        
+        padding: 10px 10px 15px 15px;
+        transition: width 10s; 
     }
     .fact-box:hover{
         width: 200px;
