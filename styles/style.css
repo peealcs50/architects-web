@@ -101,7 +101,7 @@ nav ul li{
 }
 .bottom-first-container{
     width: 1441px;
-    background-color:antiquewhite;
+    /* background-color:antiquewhite; */
     display: flex;
     justify-content: center;
 }
@@ -109,6 +109,8 @@ nav ul li{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 10px;
+    margin-left: 60px;
+    margin-right: 70px;
 }
 .bottom-first-container-rightside{
     margin-top: 287px;
@@ -122,6 +124,11 @@ nav ul li{
 .features-text{
     color: #FF900E;
 }
+.quicklist-info{
+    text-align: left;
+    width: 80%;
+}
+
 @media screen and (max-width:776px) {
     /* Nav bar responsive */
     nav{
@@ -155,6 +162,11 @@ nav ul li{
     .bottom-first-container-rightside{
         margin-top: 20px;
         text-align: center;
+    }
+    .quicklist-info{
+        text-align:center;
+        width: 80%;
+        margin: 20px 30px;
     }
 } 
 
