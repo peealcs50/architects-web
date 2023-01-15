@@ -1,0 +1,161 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*--------------
+        Fonts 
+----------------*/ 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;500&family=Work+Sans&display=swap');
+
+/* Font familt for all text */
+body{
+    font-family:sans-serif;
+}
+/*-------------------------------------------------------------------------------
+*********** Common button title and description class for reuseable *********** 
+----------------------------------------------------------------------------------*/
+.common-button{
+    background-color: #FF900E;
+    border-radius: 8px;
+    color: #FFFFFF;
+    padding: 20px 25px;
+    border: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+}
+.common-title{
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+}
+.common-description{
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* Header Design */
+header{
+    background-color: rgba(255, 144, 14, 0.1);
+    display: flex;
+    justify-content: center;
+}
+/* main section */
+/* main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+/* Nav bar design */
+nav{
+    display: flex;
+    width:1441px;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    margin-left: 60px;
+    font-size: 18px;
+    color:#424242 ;
+}
+
+/* Top banner style */
+.banner{
+    background-color: rgba(255, 144, 14, 0.1);
+    display: flex;
+    justify-content: center;
+}
+.top-container{
+    width:1441px;
+}
+.top-container-details h1,p{
+    text-align: center;
+}
+.top-container-details h1{
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-size: 64px;
+    color: #131313;
+}
+.explore-btn{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+.banner-container{
+    margin: 50px;
+}
+
+/* main container design */
+.main-container{
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center; 
+}
+.bottom-first-container{
+    width: 1441px;
+    background-color:antiquewhite;
+    display: flex;
+    justify-content: center;
+}
+.bottom-first-container-leftside{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+.bottom-first-container-rightside{
+    margin-top: 287px;
+}
+.quick-text{
+    color: #727272;
+}
+.our-text{
+    color: #131313;
+}
+.features-text{
+    color: #FF900E;
+}
+@media screen and (max-width:776px) {
+    /* Nav bar responsive */
+    nav{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    nav ul{
+        display: grid;
+        /* grid-template-columns: repeat(1,1fr); */
+        flex-direction: row;
+    }
+    nav ul li{
+        margin: 20px;
+    }
+
+    /* banner image responsive */
+    .banner img{
+        width:100%;
+    }
+
+    /* main section first part */
+    .bottom-first-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .bottom-first-container-leftside{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 40px;
+    }
+    .bottom-first-container-rightside{
+        margin-top: 20px;
+        text-align: center;
+    }
+} 
+
+
